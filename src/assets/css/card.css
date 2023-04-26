@@ -1,0 +1,102 @@
+.card {
+  min-width: 256px; max-width: 300px;
+  height: 500px;
+  background: var(--card-background);
+  border-radius: 12px;
+  display: flex; flex-direction: column;
+  justify-content: space-between; align-items: flex-start;
+  padding: 1.2rem;
+  box-shadow: 0 40px 40px 1px rgba(0,0,0, .1);
+} 
+
+/* card image */
+
+    .equilibrium {
+        cursor: pointer;
+        width: 100%; height: 250px;
+        border-radius: 8px; 
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center; align-items: center;
+      }
+
+      .img-wrapper {
+        width: 100%;
+      }
+          .img-wrapper >  img {
+            width: 100%;
+          }
+
+      .view-icon-wrapper {
+        width: 100%; height: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0; left: 0;
+        bottom: 0; right: 0;
+        margin: auto;
+        background: var(--transparent-cyan);
+        display: flex;
+        justify-content: center; align-items: center;
+        filter: opacity(0);
+      }
+
+          .view-icon-wrapper .view-icon {
+            z-index: 2;
+          }
+
+      .equilibrium:hover .view-icon-wrapper {
+        filter: opacity(1);
+      }
+
+
+
+
+
+
+
+/* description */
+
+    .card p {
+      width: 100%;
+    }
+
+
+
+/* price in eth and time left */
+    .price-time {
+      /* background: #000; */
+      width: 100%;
+      display: flex; flex-direction: row;
+      justify-content: space-between;
+    }
+    .price-time > div {
+      width: 50%;
+      display: flex; flex-direction: row;
+      justify-content: flex-start; align-items: center;
+      gap: 5px;
+      background-position: 10px;
+    }
+
+    .price-time > div:nth-child(2) {
+      justify-content: flex-end;
+      width: 40%;
+    }
+        
+
+/* sign of the artist at the bottom of the card */
+
+    .sign{
+      border-top: 1px solid  var(--line-color);
+      padding: 2rem 0;
+      width: 100%; height: 50px;
+      display: flex; flex-direction: row; 
+      justify-content: center; align-items: center;
+      gap: 1rem;
+    }
+
+    .sign > img {
+      width: 2rem;
+      border-radius: 50%;
+      border: 1px solid var(--white);
+    }

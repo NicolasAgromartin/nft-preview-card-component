@@ -1,0 +1,9 @@
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './assets/css/main.css';
+import './assets/css/app.css';
+import './assets/css/card.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <App />
+)
