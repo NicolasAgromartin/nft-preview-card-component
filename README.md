@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/NicolasAgromartin/nft-preview-card-component
+- Solution URL: https://www.frontendmentor.io/solutions/equilibrium-card-with-css-and-reactjs-8Ww4cNHdGY
 - Live Site URL: https://equilibrium-card-component.netlify.app/
 
 ## My process
